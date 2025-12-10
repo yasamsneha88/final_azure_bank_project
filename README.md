@@ -57,7 +57,7 @@ Create a directory in VSCode
 •	Portal: Create → Firewall → name fw-azbank-dev
 
 •	For now restrict DB ports; later, configure Private Endpoints.
-________________________________________
+
 DAY 2 — Transformation Layer & NoSQL Operational Store (Hands-on)
 
 Objectives
@@ -93,7 +93,7 @@ Deduplication strategy: Upsert documents in Cosmos using TransactionID as id. If
 
 Notebook pseudocode (PySpark)
 Mount ADLS: Use service principal + storage credentials to mount into Databricks.
-________________________________________
+
 DAY 3 — Data Warehouse (Synapse / Azure SQL)
 
 Objectives
@@ -112,7 +112,7 @@ Objectives
 
 Day 3 handles data transformation using Databricks.
 Banks rely heavily on clean, accurate, and enriched data before using it for analytics or reporting. Databricks provides a scalable Spark engine where you can run PySpark transformations on large banking datasets. You will mount ADLS, create notebooks, build Delta Tables, and write transformation logic for customers, transactions, and loans.
-________________________________________
+
 DAY 4 — Real-time Alerts, Security & CI/CD
 
 Objectives
@@ -144,7 +144,7 @@ Notification worker: Another Function listens to notifications and integrates wi
 .github/workflows/azure-functions.yaml (skeleton)
 
 Store secrets: In GitHub repo secrets, add publish profile or use Service Principal.
-________________________________________
+
 DAY 5 — Reporting, Customer 360 & Demo
 
 Objectives
